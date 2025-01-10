@@ -1,6 +1,5 @@
 # Basics
-apt update -qq && apt upgrade --yes
-apt install --yes build-essential
+apt update -qq 
 
 # My shell scripts
 git clone git@github.com:sandyknight/shell-scripts.git
@@ -33,8 +32,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # Configs
 git clone git@github.com:sandyknight/dotfiles
+
 cp -f ~/dotfiles/{.*} ~/
+
 mv aliases.zsh .oh-my-zsh/custom/aliases.zsh
+
+zsh
 
 # Fonts
 apt install -y fonts-firacode
