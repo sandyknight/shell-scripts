@@ -1,9 +1,6 @@
 # Basics
 apt update -qq 
 
-# My shell scripts
-git clone git@github.com:sandyknight/shell-scripts.git
-
 # R
 apt install -y r-base
 
@@ -18,7 +15,7 @@ shell-scripts/intstall-r-apt-repos.sh
 install.r tidyverse data.table janitor tinythemes scales 
 
 # Editor
-sudo apt-get install -y emacs # Emacs
+sudo apt install -y emacs # Emacs
 
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d # Spacemacs
 
